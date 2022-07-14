@@ -6,7 +6,7 @@
           <section class="px-20 bg-primary py-8 pb-0 flex justify-between w-full">
                   <!-- left side -->
                   <div class="mt-28">
-                      <h1 class="font-nunito text-6xl font-black text-secondary block">Share To Open</h1>
+                      <h1 class="font-nunito text-6xl font-black text-secondary block">Share To Opens</h1>
                       <h1 class="font-nunito text-6xl font-black text-secondary">Your Donation</h1>
                       
                       <div class="p-2 mt-20 rounded-full px-6 pb-4 relative bg-secondary flex items-center bg-opacity-40">
