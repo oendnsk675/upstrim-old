@@ -38,7 +38,7 @@
                     <a href="" class="font-semibold font-nunito text-secondary border-b border-dotted border-b-secondary">Forget Password?</a>
                 </div>
                 
-                <button type="submit" class="w-full rounded py-1.5 hover:opacity-75 transition-opacity duration-300 bg-secondary text-lg font-nunito mt-8 font-semibold">Sign In</button>
+                <router-link :to="{name: 'Dashboard'}" type="submit" class="w-full rounded py-1.5 hover:opacity-75 transition-opacity duration-300 bg-secondary text-lg font-nunito mt-8 font-semibold">Sign Ins</router-link>
             </form>
 
             <div class="text-secondary mt-5 flex items-center gap-2 font-semibold font-nunito">
