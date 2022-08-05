@@ -6,6 +6,7 @@ import MyPage from '../views/dashboard/MyPage.vue'
 import MyPageDetail from '../views/dashboard/MyPageDetail.vue'
 import SignIn from '../views/auth/SignIn.vue'
 import SignUp from '../views/auth/SignUp.vue'
+import About from '../views/About.vue'
 
 const routes = [
   {
@@ -43,6 +44,12 @@ const routes = [
     name: 'SignUp',
     component: SignUp
   },
+  {
+    path: '/signup',
+    name: 'SignUp',
+    component: SignUp
+  }
+  
 ]
 
 const router = createRouter({
