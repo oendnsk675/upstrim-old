@@ -6,7 +6,8 @@ import MyPage from '../views/dashboard/MyPage.vue'
 import MyPageDetail from '../views/dashboard/MyPageDetail.vue'
 import SignIn from '../views/auth/SignIn.vue'
 import SignUp from '../views/auth/SignUp.vue'
-import About from '../views/About.vue'
+import ForgetPassword from '../views/auth/ForgetPassword.vue'
+import ChangePassword from '../views/auth/ChangePassword.vue'
 
 const routes = [
   {
@@ -45,11 +46,20 @@ const routes = [
     component: SignUp
   },
   {
-    path: '/signup',
-    name: 'SignUp',
-    component: SignUp
-  }
-  
+    path: '/forgetpassword',
+    name: 'ForgetPassword',
+    component: ForgetPassword
+  },
+  {
+    path: '/changepassword',
+    name: 'ChangePassword',
+    component: ChangePassword
+  },
+  {
+    path: '/mypagedetail',
+    name: 'MyPageDetail',
+    component: MyPageDetail
+  },
 ]
 
 const router = createRouter({
