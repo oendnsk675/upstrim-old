@@ -31,11 +31,6 @@ const routes = [
     component: MyPage
   },
   {
-    path: '/page-detail',
-    name: 'MyPageDetail',
-    component: MyPageDetail
-  },
-  {
     path: '/signin',
     name: 'SignIn',
     component: SignIn
@@ -56,7 +51,7 @@ const routes = [
     component: ChangePassword
   },
   {
-    path: '/mypagedetail',
+    path: '/page-detail',
     name: 'MyPageDetail',
     component: MyPageDetail
   },

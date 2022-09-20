@@ -16,8 +16,8 @@
 
                 <button class="flex gap-3">
                     <div class="-mt-1">
-                        <span class="font-semibold text-sm font-nunito text-secondary">Osi gans</span>
-                        <span class="font-thin font-nunito text-secondary block text-xs">@Osi-gans</span>
+                        <span class="font-semibold text-sm font-nunito text-secondary">{{name}}</span>
+                        <span class="font-thin font-nunito text-secondary block text-xs">@{{username}}</span>
                     </div>
                     <div class="bg-secondary rounded-lg w-9 h-9 p-1  flex justify-center items-center">
                         <img class="w-full h-full object-cover -mt-1" src="https://avatars.dicebear.com/api/miniavs/:hero.svg" alt="avatar user">
@@ -30,8 +30,14 @@
 </template>
 
 <script>
+// import { mapGetters } from 'vuex'
+
 export default {
-    name: 'navbar'
+    name: 'navbar',
+    props: ['name', 'username'],
+    methods: {
+        
+    }
 }
 </script>
 

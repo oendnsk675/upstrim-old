@@ -315,6 +315,10 @@ export default {
   name: 'Home',
   components: {
     NavBar
+  },
+
+  mounted(){
+    // this.axios.get('test').then(res => console.log(res))
   }
 }
 </script>
